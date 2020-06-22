@@ -50,13 +50,34 @@
                 <button type="button" class="btn btn-info">Info</button>
                 <button type="button" class="btn btn-light">Light</button>
                 <button type="button" class="btn btn-dark">Dark</button>
-
                 <button type="button" class="btn btn-link">Link</button>
             </div>
         </div>
     </div>
 
-<script src="/js/main.js"></script>
+    <div class="container">
+        <div class="row">
+            <div class="col-3"> </div>
+            <div class="col-6">
+                <h3>Hamburger rendelés</h3>
+                <form action="">
+                    <div class="form-group">
+                        <label for="">feltét</label>
+                        <input type="text" name="top-input" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mennyiség</label>
+                        <input type="number" name="amount-input" class="form-control">
+                    </div>
+                    <button onclick="calcAmount()" type="button" class="btn btn-primary">Megrendelés</button>
+                </form>
+
+            </div>
+            <div class="col-3"></div>
+        </div>
+    </div>
+
+    <script src="/js/main.js"></script>
 
 </body>
 
