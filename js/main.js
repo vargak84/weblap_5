@@ -20,3 +20,12 @@ function showSumPrice(price, amountNumber) {
     showAmount.innerHTML = amount;
     }
 }
+
+/* Nem működik!!!
+let helpText = document.createElement("small");
+helpText.className = "form-text text-muted";
+helpText.innerHTML = "Adja meg a feltéteket!";
+
+let parent =document.querySelector("div.form-group:nth-chilt(1)");
+parent.appendChild(helpText);
+*/
